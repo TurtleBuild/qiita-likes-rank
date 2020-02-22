@@ -10,10 +10,10 @@ Masahiro Kasatani
 <img src="qiita.png" alt="Architecture" title="Architecture">
 
 ## 動かしてみたい方へ
-# config.iniは下記を参考に作成してください
+### config.iniは下記を参考に作成してください
 https://godoc.org/gopkg.in/ini.v1  
-# DynamoDBテーブル設計
+### DynamoDBテーブル設計
 パーティションキー：LikesRank  
 ソートキー：Tag  
-# APIGateway
+### APIGateway
 CORSの有効化→デプロイを忘れずに
