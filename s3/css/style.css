@@ -1,0 +1,92 @@
+body {
+  background-color: #F6F6F4;
+}
+a, a:hover {
+  color: #333;
+}
+.card-header {
+  background-color: #DDD;
+}
+a.list-group-item {
+  background-color: #fff;
+}
+a.list-group-item:hover {
+  opacity: 0.7;
+}
+.likes-count {
+  color: #999;
+}
+.btn-tags,
+.btn-tags:hover {
+  color: #28a745;
+  border-color: #28a745;
+}
+.tag-link {
+  cursor: pointer;
+}
+.tag-link-group {
+  max-width: 800px;
+}
+.err-message {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.checkbox--hidden {
+  display: none;
+}
+.hamburger-icon {
+  position: absolute;
+  left: 10px;
+  display: block;
+  z-index: 11;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.hamburger-menu {
+  position: fixed;
+  left: -95%;
+  width: 95%;
+  height: 100%;
+  background: #F5F5F5;
+  transition: left 0.4s;
+  z-index: 10;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.checkbox--hidden:checked ~ .hamburger-icon {
+  position: fixed;
+}
+.checkbox--hidden:checked ~ .hamburger-menu {
+  left: 0;
+}
+.hamburger-widget ul {
+  padding: 0;
+  margin: 0;
+}
+.hamburger-widget ul li {
+  line-height: 1.5;
+  list-style-type: none!important;
+}
+.hamburger-widget ul li a {
+  display: block;
+  padding: 0.5em;
+}
+.hamburger-widget ul li ul li a::before {
+  padding-right: 5px;
+  color: #3F4D50;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+}
+.hamburger-widget ul li.recentcomments a {
+  display: inline-block;
+  text-decoration: underline;
+}
+.hamburger-widget ul li:not(.recentcomments) a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+.hamburger-widget h4.widget-title {
+  border-bottom: solid 2px;
+}
